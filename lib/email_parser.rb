@@ -14,9 +14,9 @@ class EmailParser
 
   def parse
     emails.split do |email|
-      binding.pry
       email.split(",")
     end
   end
 
 end
+binding.pry
