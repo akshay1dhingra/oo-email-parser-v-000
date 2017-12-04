@@ -14,7 +14,7 @@ class EmailParser
 
   def parse
     binding.pry
-    emails.split(",")
+    emails.split(", ")
   end
 
 end
