@@ -13,7 +13,7 @@ class EmailParser
   end
 
   def parse
-    emails.split(/[, ]/).reject(&:empty?)
+    emails.split(/[, ]/).reject(&:empty?).uniq
   end
 
 end
